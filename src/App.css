@@ -1,10 +1,38 @@
 .App {
   text-align: center;
+  
+}
+.chkoutbtn{
+  background-color: #000000;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://i.pinimg.com/originals/11/f3/99/11f3999285c063ce311ce146ffe8b576.jpg');
+  background-size: fit;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.glassy-text {
+  font-family: system-ui, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+  line-height: 2;
+  color: #494848;
+  text-shadow: 1px 1px #000000;
+  margin-top: 250px;
+  min-height: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 2px 5px rgba (0, 0, 0, 0.3);
+  position: center;
+}
+
+.form{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 3;
+  align-items: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,16 +41,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
